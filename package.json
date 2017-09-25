@@ -1,0 +1,30 @@
+{
+  "name": "self-learning-day-0",
+  "version": "1.0.0",
+  "description": "AritGeo, a function that detects AP and GP",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawzeeyy/self-learning-day-0.git"
+  },
+  "author": "Shuaib Oladigbolu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawzeeyy/self-learning-day-0/issues"
+  },
+  "homepage": "https://github.com/sawzeeyy/self-learning-day-0#readme",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
